@@ -50,6 +50,11 @@ nav a[aria-current='page'] {
 
 nav a:hover {
   background-color: var(--primary-color);
+  color: black;
+}
+
+a {
+  color: var(--secondary-color)
 }
 
 h1 {
