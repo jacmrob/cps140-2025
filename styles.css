@@ -14,8 +14,13 @@ body {
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: var(--text-color);
   background-color: var(--background-color);
+
 }
 
+.reefstyle {
+color:aqua;
+
+}
 main {
   padding: 1rem;
 }
@@ -37,7 +42,8 @@ nav a {
   min-width: 9rem;
   padding: 0.5rem;
   border-radius: 0.2rem;
-  border: solid 1px var(--text-color);
+  border-top: solid 3px var(--primary-color);
+  border-bottom: solid 3px var(--primary-color);
   text-align: center;
   text-decoration: none;
   background-color: var(--secondary-color);
@@ -64,4 +70,20 @@ h1 {
 
 p {
   font-size: 1em;
+}
+
+.child {
+  border: solid 1px black;
+  padding: 1rem;
+}
+
+.parent {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+  border: solid 1px black;
 }
