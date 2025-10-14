@@ -17,10 +17,6 @@ body {
 
 }
 
-.reefstyle {
-color:aqua;
-
-}
 main {
   padding: 1rem;
 }
@@ -75,15 +71,22 @@ p {
 .child {
   border: solid 1px black;
   padding: 1rem;
+  background: var(--primary-color);
 }
 
 .parent {
   display: flex;
-  width: 100%;
+  padding: 1rem;
+  gap: 1rem;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  height: 100px;
   align-items: center;
   border: solid 1px black;
+  background-color: var(--secondary-color);
+}
+
+#examplebox {
+  background-color: var(--secondary-color);
+  padding: 1rem;
 }
