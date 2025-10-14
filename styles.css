@@ -90,3 +90,14 @@ p {
   background-color: var(--secondary-color);
   padding: 1rem;
 }
+
+.classwork { 
+  background-color: var(--secondary-color);
+  margin-top: 1rem;
+}
+
+.classwork2 { 
+  background-color: var(--secondary-color);
+  margin-top: 1rem;
+  width: 50%;
+}
