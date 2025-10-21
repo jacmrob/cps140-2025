@@ -14,7 +14,6 @@ body {
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: var(--text-color);
   background-color: var(--background-color);
-
 }
 
 main {
@@ -62,42 +61,42 @@ a {
 h1 {
   font-weight: bold;
   font-size: 2rem;
+  text-align: center;
+  background-color: var(--primary-color);
+}
+
+.header {
+  font-size: 2rem;
+  text-align: center;
+  padding: 1rem;
+  background-color: var(--primary-color);
+}
+
+.footer {
+  padding: 1rem;
+  background-color: var(--primary-color)
+}
+
+.picture {
+  border: solid 1px black;
+  margin: 1rem;
+  /* height: 150px; */
+  max-height: 150px;
+  min-height: 100px;
+
 }
 
 p {
   font-size: 1em;
 }
 
-.child {
-  border: solid 1px black;
-  padding: 1rem;
-  background: var(--primary-color);
-}
-
 .parent {
   display: flex;
-  padding: 1rem;
-  gap: 1rem;
   flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  border: solid 1px black;
-  background-color: var(--secondary-color);
 }
 
-#examplebox {
-  background-color: var(--secondary-color);
+.child {
   padding: 1rem;
-}
-
-.classwork { 
-  background-color: var(--secondary-color);
-  margin-top: 1rem;
-}
-
-.classwork2 { 
-  background-color: var(--secondary-color);
-  margin-top: 1rem;
-  width: 50%;
+  border: solid 1px black;
+  margin: 1rem;
 }
