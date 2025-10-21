@@ -114,6 +114,7 @@ p {
   flex-direction: row;
 }
 
+/* this is a comment */
 .child {
   padding: 1rem;
   border: solid 1px black;
