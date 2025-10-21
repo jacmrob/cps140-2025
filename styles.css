@@ -11,7 +11,7 @@
 
 body {
   margin: 0;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   color: var(--text-color);
   background-color: var(--background-color);
 }
@@ -45,7 +45,7 @@ nav a {
   color: var(--text-color);
 }
 
-nav a[aria-current='page'] {
+nav a[aria-current="page"] {
   background-color: var(--primary-color);
 }
 
@@ -55,7 +55,7 @@ nav a:hover {
 }
 
 a {
-  color: var(--secondary-color)
+  color: var(--secondary-color);
 }
 
 h1 {
@@ -74,7 +74,7 @@ h1 {
 
 .footer {
   padding: 1rem;
-  background-color: var(--primary-color)
+  background-color: var(--primary-color);
 }
 
 .picture {
@@ -83,7 +83,6 @@ h1 {
   /* height: 150px; */
   max-height: 150px;
   min-height: 100px;
-
 }
 
 p {
