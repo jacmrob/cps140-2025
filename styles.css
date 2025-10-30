@@ -117,14 +117,14 @@ p {
 }
 
 .coverimage {
-  width: 100vw;        /* full screen width */
-  height: 300px;       /* fixed height – change to what you want */
-  overflow: hidden;    /* hide the cropped bits */
+  width: 100vw; /* full screen width */
+  height: 300px; /* fixed height */
+  overflow: hidden; /* hide the cropped bits */
 }
 
 .coverimage img {
   width: 100%;
   height: 100%;
-  object-fit: cover;   /* fill box without squishing */
+  object-fit: cover; /* fill box without squishing */
   object-position: center; /* crop from center; change to top/left/etc */
 }
