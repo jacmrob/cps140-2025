@@ -4,13 +4,9 @@
 <head>
     <title>Page3</title>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!--
-          Need a visual blank slate?
-          Remove all code in `styles.css`!
-        -->
     <link rel="stylesheet" href="styles.css" />
 
+    <meta name="viewport" content="width=device-width" />
     <script type="module" src="script.js"></script>
 </head>
 
@@ -18,10 +14,28 @@
     <div class="header">CPS 140</div>
     <nav>
         <a href="/">Home</a>
-        <a href="/page2.html">Class Roster</a>
+        <a href="../page2.html">Class Roster</a>
         <a href="/page3.html" aria-current="page">Page 3</a>
     </nav>
-    <main></main>
+    <main>
+        <section>
+            <h2>About Me</h2>
+            <p class="description">Hi! I'm learning web development</p>
+            <img src="./images/profile.png" alt="My profile picture" />
+        </section>
+
+        <section>
+            <h2>My Skills</h2>
+            <p>I know how to style things in CSS using flexbox.</p>
+            <p>The following code will be a row of boxes, spaced evenly across the page.</p>
+            <div class="parent">
+                <div class="child">HTML</div>
+                <div class="child">CSS</div>
+                <div class="child">Javascript</div>
+            </div>
+        </section>
+
+    </main>
 
     <div class="footer">
         Contact me
