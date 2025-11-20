@@ -122,3 +122,10 @@ p {
   object-fit: cover; /* fill box without squishing */
   object-position: center; /* crop from center; change to top/left/etc */
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 2rem;
+}
