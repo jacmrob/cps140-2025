@@ -53,7 +53,15 @@
                 <input type="checkbox" name="checkbox" id="option2">
                 <div style="margin-left: 0.5rem;">Option 2</div>
             </div>
-            <input type="submit" name="submitButton">
+            <button id="myButton" onclick="formSubmit()">
+                The Button
+            </button>
+            <input type="submit" onclick="formSubmit()">
+            <script>
+                function formSubmit() {
+                    alert(`You clicked ${document.getElementById("myButton").textContext}`);
+                }
+            </script>
 
         </form>
 
